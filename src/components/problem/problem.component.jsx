@@ -15,9 +15,9 @@ import {
   Button2,
   Description,
 } from "./problem.styles";
-import Dump from "../../assets/images/banner2.jpg";
-// import Water from "../../assets/images/2.png";
-// import Human from "../../assets/images/3.png";
+import Dump from "../../assets/images/a.jpg";
+import Dump2 from "../../assets/images/b.jpg";
+import Dump3 from "../../assets/images/c.jpg";
 
 const Problem = () => (
   <ProblemContainer>
@@ -54,13 +54,13 @@ const Problem = () => (
             </Description>
             <Button2>enviromental pollution</Button2>
           </InnerFlex2>
-          <Img2 src={Dump} />
+          <Img2 src={Dump2} />
         </InnerRow2>
       </Card>
 
       <Card>
         <InnerRow>
-          <Img src={Dump} />
+          <Img src={Dump3} />
           <InnerFlex>
             <Description>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt

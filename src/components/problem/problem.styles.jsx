@@ -49,7 +49,7 @@ export const Img = styled.img`
   width: 100%;
 `;
 export const InnerFlex = styled.div`
-  border: 4px solid #d1c8bb;
+  border: 2px solid #1f232e;
   height: 200px;
   margin: auto 0 auto -80px;
   padding: 30px 60px 0 60px;
@@ -84,7 +84,7 @@ export const InnerRow2 = styled.div`
   }
 `;
 export const InnerFlex2 = styled.div`
-  border: 3px solid #d1c8bb;
+  border: 2px solid #1f232e;
   height: 200px;
   margin: auto 0 auto 0;
   padding: 30px 40px 0 40px;

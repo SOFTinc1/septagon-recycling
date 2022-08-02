@@ -2,8 +2,8 @@ import styled, { css } from "styled-components";
 // import { Link } from "react-router-dom";
 
 const buttonStyles = css`
-  background-color: #D1C8BB;
-  color: #1f232e;
+  background-color: #1f232e;
+  color: #D1C8BB;
   padding: 16px 25px;
 
   &:active {
