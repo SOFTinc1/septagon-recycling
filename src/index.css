@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "dk";
+  src: local("dk"), url(./assets/fonts/DK\ Kaikoura.otf) format("opentype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "typo-grotesk-thin";
+  src: local("typo-grotesk-thin"), url(./assets/fonts/typo-grotesk-thin.otf) format("opentype");
+}
+
+
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  font-family: "dk", "typo-grotesk-thin";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1f232e;
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
 }

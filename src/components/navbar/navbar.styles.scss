@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #1f232e;
+  height: 100%;
+}
+
+.Link-a {
+  color: #fff;
+  font-family: "dk";
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.Link-a:hover {
+  color: rgba(200, 200, 57, 255);
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.navbar .navbar-toggler-icon {
+  background-image: url("../../assets/images/menu.svg");
+  width: 1rem;
+  height: 1rem;
+  border: none;
+}
+.navbar-inverse .navbar-toggler-icon {
+  background-image: url("../../assets/images/menu.svg");
+  width: 1rem;
+  height: 1rem;
+  border: none;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("../../assets/images/menu.svg");
+  width: 1rem;
+  height: 1rem;
+  border: none;
+}
